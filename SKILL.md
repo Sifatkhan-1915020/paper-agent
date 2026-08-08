@@ -1,6 +1,6 @@
 ---
 name: paper-agent-cli
-description: Instructions for working on the paper-agent-cli repo, which analyzes PDFs with OpenCode-configured models and stores local paper summaries. built by Sifat Khan.
+description: Instructions for working on the paper-agent-cli repo, which analyzes PDFs with OpenCode-configured models and stores local paper summaries.
 ---
 
 # paper-agent-cli

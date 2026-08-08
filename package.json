@@ -1,6 +1,6 @@
 {
   "name": "paper-agent-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "An AI agent that reads research PDFs (via mupdf.js) and extracts field, method, result, and impact — with compare, benchmark, methodology-figure, and code-generation commands.",
   "type": "module",
   "bin": {
