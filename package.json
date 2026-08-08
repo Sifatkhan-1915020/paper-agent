@@ -1,0 +1,41 @@
+{
+  "name": "paper-agent-cli",
+  "version": "0.1.0",
+  "description": "An AI agent that reads research PDFs (via mupdf.js) and extracts field, method, result, and impact — with compare, benchmark, methodology-figure, and code-generation commands.",
+  "type": "module",
+  "bin": {
+    "paper-agent": "./dist/cli.js"
+  },
+  "main": "./dist/cli.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "node dist/cli.js",
+    "dev": "tsc -p . && node dist/cli.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "pdf",
+    "research",
+    "ai-agent",
+    "opencode",
+    "mupdf",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@opencode-ai/sdk": "^1.18.15",
+    "commander": "^15.0.0",
+    "dotenv": "^17.0.0",
+    "mupdf": "^1.28.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "typescript": "^7.0.0"
+  }
+}

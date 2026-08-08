@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.env
+.paper-agent/
+*.log
+.DS_Store
